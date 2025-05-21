@@ -1,0 +1,29 @@
+1. DANH SÁCH CÁC CHỨC NĂNG CHÍNH (Use Case)
+
+1. Use Case: Đăng nhập
+   - Mô tả: Người dùng đăng nhập để sử dụng hệ thống
+   - Vai trò: Người dùng, Kỹ thuật viên
+
+2. Use Case: Tạo yêu cầu hỗ trợ kỹ thuật
+   - Mô tả: Người dùng tạo yêu cầu mới để được hỗ trợ
+   - Vai trò: Người dùng
+
+3. Use Case: Theo dõi trạng thái ticket
+   - Mô tả: Xem trạng thái xử lý các yêu cầu đã gửi
+   - Vai trò: Người dùng
+
+4. Use Case: Nhận ticket
+   - Mô tả: Nhân viên tiếp nhận và bắt đầu xử lý yêu cầu
+   - Vai trò: Nhân viên kỹ thuật
+
+5. Use Case: Cập nhật tiến độ xử lý
+   - Mô tả: Cập nhật trạng thái như "Đang xử lý", "Đã xử lý xong"
+   - Vai trò: Nhân viên kỹ thuật
+
+6. Use Case: Đóng ticket
+   - Mô tả: Khi xử lý xong thì đánh dấu ticket đã hoàn tất
+   - Vai trò: Nhân viên kỹ thuật
+
+7. Use Case: Tạo ticket thay người dùng (tùy chọn)
+   - Mô tả: Nhân viên kỹ thuật tạo yêu cầu thay người dùng nếu nhận yêu cầu trực tiếp
+   - Vai trò: Nhân viên kỹ thuật
