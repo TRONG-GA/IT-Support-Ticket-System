@@ -1,0 +1,43 @@
+# MÔ TẢ CHI TIẾT CÁC CHỨC NĂNG (USE CASE DETAILS)
+
+1. Đăng nhập
+- Mục đích: Xác thực người dùng để truy cập hệ thống.
+- Vai trò tham gia: Người dùng, Nhân viên kỹ thuật
+- Đầu vào: Tài khoản và mật khẩu
+- Đầu ra: Truy cập vào giao diện chức năng tương ứng
+
+2. Tạo yêu cầu hỗ trợ kỹ thuật
+- Mục đích: Cho phép người dùng tạo mới một ticket hỗ trợ kỹ thuật
+- Vai trò tham gia: Người dùng
+- Đầu vào: Thông tin mô tả sự cố, mức độ ưu tiên
+- Đầu ra: Ticket mới được tạo trong hệ thống
+
+3. Theo dõi trạng thái yêu cầu
+- Mục đích: Cho phép người dùng xem tiến độ xử lý yêu cầu của mình
+- Vai trò tham gia: Người dùng
+- Đầu vào: ID ticket
+- Đầu ra: Trạng thái hiện tại (Đang xử lý, Đã xử lý xong,...)
+
+4. Nhận và xử lý yêu cầu
+- Mục đích: Nhân viên tiếp nhận và xử lý yêu cầu được phân công
+- Vai trò tham gia: Nhân viên kỹ thuật
+- Đầu vào: Danh sách các ticket mới
+- Đầu ra: Ticket được cập nhật trạng thái
+
+5. Cập nhật tiến trình xử lý
+- Mục đích: Cập nhật trạng thái của ticket trong quá trình xử lý
+- Vai trò tham gia: Nhân viên kỹ thuật
+- Đầu vào: ID ticket, nội dung cập nhật
+- Đầu ra: Trạng thái ticket mới
+
+6. Đóng yêu cầu hỗ trợ
+- Mục đích: Kết thúc một yêu cầu hỗ trợ khi đã xử lý xong
+- Vai trò tham gia: Nhân viên kỹ thuật
+- Đầu vào: ID ticket
+- Đầu ra: Ticket có trạng thái "Đã xử lý xong"
+
+7. Tạo ticket giúp người dùng (tuỳ chọn)
+- Mục đích: Nhân viên tạo ticket thay cho người dùng khi có yêu cầu trực tiếp
+- Vai trò tham gia: Nhân viên kỹ thuật
+- Đầu vào: Thông tin yêu cầu
+- Đầu ra: Ticket được tạo mới
