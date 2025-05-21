@@ -1,0 +1,31 @@
+# YÊU CẦU HỆ THỐNG - IT SUPPORT TICKET SYSTEM
+
+1. Giới thiệu
+- Hệ thống hỗ trợ người dùng trong trường học (sinh viên, giảng viên, nhân viên) gửi các yêu cầu hỗ trợ kỹ thuật.
+- Nhân viên kỹ thuật tiếp nhận, xử lý và cập nhật trạng thái xử lý các yêu cầu.
+- Mục tiêu: Đơn giản, dễ sử dụng, giảm thiểu thời gian xử lý các vấn đề IT.
+
+2. Vai trò người dùng chính
+- Người dùng (User): Tạo ticket yêu cầu hỗ trợ, theo dõi trạng thái.
+- Nhân viên kỹ thuật (Technician): Nhận ticket, cập nhật trạng thái, đóng ticket. Có thể thay mặt người dùng tạo ticket.
+- Ghi chú: Không cần tạo vai trò admin riêng, có thể gán quyền admin cho nhân viên kỹ thuật.
+
+3. Các chức năng chính
+**Người dùng:**
+- Gửi yêu cầu hỗ trợ bằng cách tạo ticket.
+- Xem trạng thái xử lý của các ticket đã tạo.
+
+**Nhân viên kỹ thuật:**
+- Nhận và theo dõi các ticket được phân công.
+- Cập nhật trạng thái xử lý (đang xử lý, đã xử lý, v.v.).
+- Đóng ticket khi đã xử lý xong.
+- Tạo ticket thay người dùng khi cần.
+
+4. Yêu cầu hệ thống
+- Web interface đơn giản, dễ dùng.
+- Không tích hợp email để giảm độ phức tạp.
+- Có thể thêm thông báo nội bộ (popup/badge thông báo trạng thái).
+
+5. Ghi chú thêm
+- Chỉ phân quyền cho người dùng để đơn giản hóa hệ thống.
+- Toàn bộ dự án sẽ lưu trữ trên GitHub.
